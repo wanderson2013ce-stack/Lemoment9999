@@ -1,0 +1,16 @@
+{
+  "name": "lemoment-backend",
+  "version": "1.0.0",
+  "description": "Backend do LeMoment: cadastro de convidados, geração de QR e envio automático pelo WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nanoid": "^3.3.7",
+    "qrcode": "^1.5.3"
+  }
+}
